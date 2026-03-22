@@ -1,15 +1,13 @@
 function Contact() {
   return (
-    <section id="contact" style={{ textAlign: "center" }}>
-      <h2>Let’s Build Something Amazing 🚀</h2>
+    <section id="contact">
+      <h2 className="gradient-text">Contact</h2>
 
-      <p>Open for Software Engineer / AI roles</p>
+      <p>Feel free to reach out for opportunities or collaborations.</p>
 
-      <button className="btn">Contact Me</button>
-
-      <p style={{ marginTop: "20px" }}>
-        hemsuriya1412@gmail.com
-      </p>
+      <a href="mailto:hemsuriya1412@gmail.com">
+        <button className="btn">Email Me</button>
+      </a>
     </section>
   );
 }

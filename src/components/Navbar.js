@@ -15,7 +15,13 @@ function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "navbar-scroll" : ""}`}>
       <div className="nav-container">
-        <h2 className="logo">Hemsuriya</h2>
+        <h2 
+          className="logo"
+          style={{ cursor: "pointer" }}
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          Hemsuriya M
+        </h2>
 
         <div className="nav-links">
           <a href="#projects">Projects</a>

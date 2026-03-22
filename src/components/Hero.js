@@ -11,7 +11,7 @@ function Hero() {
         className="gradient-text"
         whileHover={{ scale: 1.05 }}
       >
-        Hemsuriya
+        Hemsuriya M
       </motion.h1>
 
       <motion.h2>

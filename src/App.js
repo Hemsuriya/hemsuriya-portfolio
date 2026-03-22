@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import CursorGlow from "./components/CursorGlow";
+import ScrollTop from "./components/ScrollTop";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Experience />
       <Contact />
+      <ScrollTop />
     </>
   );
 }
