@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 function ScrollTop() {
   const [show, setShow] = useState(false);
@@ -7,32 +8,25 @@ function ScrollTop() {
     const handleScroll = () => {
       setShow(window.scrollY > 300);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    show && (
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        style={{
-          position: "fixed",
-          bottom: "30px",
-          right: "30px",
-          padding: "10px 15px",
-          borderRadius: "50%",
-          border: "none",
-          background: "#38bdf8",
-          color: "black",
-          cursor: "pointer",
-          fontWeight: "bold",
-          zIndex: 1000
-        }}
-      >
-        ↑
-      </button>
-    )
+    <AnimatePresence>
+      {show && (
+        <motion.button
+          className="scroll-top-btn"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 20 }}
+          whileHover={{ scale: 1.1 }}
+        >
+          ↑
+        </motion.button>
+      )}
+    </AnimatePresence>
   );
 }
 
