@@ -1,4 +1,4 @@
-﻿import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const experiences = [
   {
@@ -70,4 +70,3 @@ function Experience() {
 }
 
 export default Experience;
-
