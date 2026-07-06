@@ -8,8 +8,6 @@ import {
   SiDjango,
   SiFlask,
   SiFastapi,
-  SiLangchain,
-  SiHuggingface,
   SiMysql,
   SiDocker,
   SiJenkins,
@@ -39,12 +37,11 @@ const skillCategories = [
     ],
   },
   {
-    title: "AI / ML",
+    title: "Specialty",
     skills: [
-      { name: "LangChain", Icon: SiLangchain, color: "#60A5FA" },
-      { name: "Hugging Face", Icon: SiHuggingface, color: "#FF9D00" },
-      { name: "LLMs", Icon: FaBrain, color: "#A78BFA" },
-      { name: "NLP", Icon: FaComments, color: "#22D3EE" },
+      { name: "System Design", Icon: FaBrain, color: "#A78BFA" },
+      { name: "Automation", Icon: FaComments, color: "#22D3EE" },
+      { name: "APIs", Icon: SiFastapi, color: "#009688" },
     ],
   },
   {
@@ -74,7 +71,7 @@ function Skills() {
   return (
     <section id="skills">
       <h2 className="section-heading gradient-text">Tech Stack</h2>
-      <p className="section-subtitle">Technologies I use to ship backend and AI systems</p>
+      <p className="section-subtitle">Technologies I use to ship backend and software systems</p>
 
       {skillCategories.map((category) => (
         <div key={category.title} className="skill-category">

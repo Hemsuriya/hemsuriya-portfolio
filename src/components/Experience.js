@@ -6,7 +6,7 @@ const experiences = [
     company: "Cloud BC Labs",
     date: "June 2025 - Present",
     points: [
-      "Built backend systems using Python, FastAPI, LangChain, and modular services",
+      "Built backend systems using Python, FastAPI, and modular services",
       "Owned end-to-end development for API design, business logic, and deployment",
       "Shipped production features spanning automation, monitoring, and operational tooling",
     ],

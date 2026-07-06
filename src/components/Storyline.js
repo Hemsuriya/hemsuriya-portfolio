@@ -23,7 +23,7 @@ const scenes = [
     description:
       "I shape the architecture around reliability and speed, then layer in intelligence only where it genuinely improves the outcome. That keeps the system useful instead of flashy.",
     impact: "Simple structure, sharp execution, and no unnecessary complexity.",
-    chips: ["FastAPI", "LangChain", "Data flow", "RAG"],
+    chips: ["FastAPI", "Architecture", "Data flow", "Reliability"],
     visual: {
       label: "System Core",
       mode: "build",
@@ -63,72 +63,92 @@ const scenes = [
 function StoryVisual({ scene }) {
   return (
     <div className={`story-visual story-visual-${scene.visual.mode}`}>
-      <div className="story-visual-glow" />
-      <div className="story-visual-tag">{scene.visual.label}</div>
+      <div className="story-visual-head">
+        <div className="story-visual-tag">{scene.visual.label}</div>
+        <div className="story-visual-step">Step {scene.step}</div>
+      </div>
 
       {scene.visual.mode === "signal" && (
-        <>
-          <div className="signal-node signal-node-a" />
-          <div className="signal-node signal-node-b" />
-          <div className="signal-node signal-node-c" />
-          <div className="signal-line signal-line-a" />
-          <div className="signal-line signal-line-b" />
-          <div className="signal-wave" />
-        </>
+        <div className="story-display story-display-signal">
+          <div className="service-card service-card-active">
+            <span>Frontend</span>
+            <strong>Request flow</strong>
+            <p>Track where user actions slow down.</p>
+          </div>
+          <div className="service-card">
+            <span>API</span>
+            <strong>Latency hotspot</strong>
+            <p>Find the slow endpoint or missing cache.</p>
+          </div>
+          <div className="service-card">
+            <span>Database</span>
+            <strong>Query pressure</strong>
+            <p>Spot joins and lookups that hurt speed.</p>
+          </div>
+        </div>
       )}
 
       {scene.visual.mode === "build" && (
-        <>
-          <div className="build-grid">
-            <span />
-            <span />
-            <span />
-            <span />
+        <div className="story-display story-display-build">
+          <div className="code-block">
+            <div className="code-line" />
+            <div className="code-line short" />
+            <div className="code-line medium" />
+            <div className="code-line short" />
           </div>
-          <div className="build-stack build-stack-a">
-            <strong>API</strong>
-            <span>Fast</span>
+          <div className="stack-panel">
+            <div className="stack-item">
+              <span>API</span>
+              <strong>Fast, clean, testable</strong>
+            </div>
+            <div className="stack-item">
+              <span>Services</span>
+              <strong>Small, focused, reusable</strong>
+            </div>
+            <div className="stack-item">
+              <span>Data</span>
+              <strong>Reliable and easy to trace</strong>
+            </div>
           </div>
-          <div className="build-stack build-stack-b">
-            <strong>AI</strong>
-            <span>Useful</span>
-          </div>
-          <div className="build-stack build-stack-c">
-            <strong>UX</strong>
-            <span>Clear</span>
-          </div>
-        </>
+        </div>
       )}
 
       {scene.visual.mode === "ship" && (
-        <>
-          <div className="ship-track" />
-          <div className="ship-plane ship-plane-one" />
-          <div className="ship-plane ship-plane-two" />
-          <div className="ship-check ship-check-a">validate</div>
-          <div className="ship-check ship-check-b">launch</div>
-        </>
+        <div className="story-display story-display-ship">
+          <div className="pipeline-step">Test</div>
+          <div className="pipeline-arrow">→</div>
+          <div className="pipeline-step">Build</div>
+          <div className="pipeline-arrow">→</div>
+          <div className="pipeline-step">Deploy</div>
+          <div className="pipeline-arrow">→</div>
+          <div className="pipeline-step">Monitor</div>
+          <div className="release-note">
+            <span>Release note</span>
+            <strong>Polish the handoff until it feels effortless.</strong>
+          </div>
+        </div>
       )}
 
       {scene.visual.mode === "scale" && (
-        <>
-          <div className="scale-chart">
-            <span style={{ height: "42%" }} />
-            <span style={{ height: "58%" }} />
-            <span style={{ height: "74%" }} />
-            <span style={{ height: "88%" }} />
-            <span style={{ height: "100%" }} />
+        <div className="story-display story-display-scale">
+          <div className="metric-tile">
+            <span>Throughput</span>
+            <strong>More work, less drag</strong>
           </div>
-          <div className="scale-ring scale-ring-a" />
-          <div className="scale-ring scale-ring-b" />
-          <div className="scale-metric">
-            <span>Measured</span>
-            <strong>Results</strong>
+          <div className="metric-tile">
+            <span>Latency</span>
+            <strong>Response times down</strong>
           </div>
-        </>
+          <div className="metric-bars">
+            <div className="metric-bar" style={{ height: "42%" }} />
+            <div className="metric-bar" style={{ height: "58%" }} />
+            <div className="metric-bar" style={{ height: "74%" }} />
+            <div className="metric-bar" style={{ height: "88%" }} />
+          </div>
+        </div>
       )}
 
-      <div className="story-metric">
+      <div className="story-visual-footer">
         <span>Sequence</span>
         <strong>{scene.step}</strong>
       </div>

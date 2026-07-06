@@ -26,7 +26,8 @@ function About() {
           </p>
           <p>
             I have built <strong>automation-heavy backend platforms</strong> with Python, Django,
-            FastAPI, and AI where it makes sense, keeping the systems fast, maintainable, and useful.
+            FastAPI, and thoughtful integrations where it makes sense, keeping systems fast,
+            maintainable, and useful.
           </p>
           <p>
             My approach is simple: ownership, fast iteration, clean architecture, and measurable

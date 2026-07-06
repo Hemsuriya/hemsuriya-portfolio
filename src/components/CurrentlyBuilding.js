@@ -25,7 +25,6 @@ function CurrentlyBuilding() {
         <div className="building-tech">
           <span>FastAPI</span>
           <span>Python</span>
-          <span>RAG</span>
           <span>React</span>
           <span>PostgreSQL</span>
           <span>Docker</span>

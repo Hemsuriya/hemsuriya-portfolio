@@ -7,15 +7,15 @@ const projects = [
     description:
       "An end-to-end backend platform that automates repetitive operations, routes data intelligently, and keeps processes moving fast.",
     image: "/ai-1.png",
-    tags: ["Python", "LangChain", "FastAPI", "React", "Automation"],
+    tags: ["Python", "FastAPI", "React", "Automation", "Systems"],
     impact: [
       "Reduced repetitive manual work by 60%",
       "Automated critical backend workflows",
       "Built for high-throughput operations",
     ],
-    github: "https://github.com/Hemsuriya/ai-recruitment-system.git",
+    github: "https://github.com/Hemsuriya",
     demo: null,
-    architecture: "FastAPI services + LangChain workflows + React dashboard",
+    architecture: "FastAPI services + event-driven workflows + React dashboard",
   },
   {
     title: "Hospital Management System",
