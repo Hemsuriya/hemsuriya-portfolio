@@ -18,7 +18,7 @@ function Hero() {
             transition={{ delay: 0.3 }}
           >
             <span className="pulse" />
-            Open to high-impact backend and AI roles
+            Open to high-impact software engineering roles
           </motion.div>
 
           <motion.div
@@ -36,7 +36,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
           >
-            I build software that makes hiring teams move faster.
+            I build software that makes teams move faster.
           </motion.h1>
 
           <motion.p
@@ -45,7 +45,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            Backend Engineer &middot; AI Systems Builder
+            Software Engineer &middot; Backend Builder
           </motion.p>
 
           <motion.p
@@ -54,9 +54,9 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            I turn messy workflows into products that feel obvious to use and
-            difficult to ignore. Think production backend systems, AI pipelines,
-            and interfaces that make the work look effortless.
+            I turn messy requirements into polished products that feel obvious
+            to use and difficult to ignore. Think production backend systems,
+            automation, and interfaces that make the work look effortless.
           </motion.p>
 
           <motion.div
@@ -65,9 +65,9 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.64 }}
           >
-            <span>AI Recruitment Systems</span>
+            <span>Backend Systems</span>
             <span>Fast APIs</span>
-            <span>Production Thinking</span>
+            <span>Automation</span>
           </motion.div>
 
           <motion.ul
@@ -76,7 +76,7 @@ function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.68 }}
           >
-            <li>Built AI recruitment workflows that cut manual screening by 60%</li>
+            <li>Built software systems that cut manual work and sped up delivery</li>
             <li>Improved API response time by 20% and SQL performance by 30%</li>
             <li>Trained 300+ people and shipped systems used in production</li>
           </motion.ul>
@@ -149,10 +149,10 @@ function Hero() {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ delay: 0.48, duration: 0.45 }}
         >
-          <div className="hero-panel-top">
-            <span className="hero-panel-label">Signal / Snapshot</span>
-            <span className="hero-panel-status">Ready to hire</span>
-          </div>
+              <div className="hero-panel-top">
+                <span className="hero-panel-label">Signal / Snapshot</span>
+                <span className="hero-panel-status">Ready to hire</span>
+              </div>
 
           <div className="hero-avatar-wrap">
             <img
@@ -172,7 +172,7 @@ function Hero() {
           <div className="hero-signal-grid">
             <div className="hero-signal-card">
               <span>Built</span>
-              <strong>AI hiring platforms</strong>
+              <strong>Backend platforms</strong>
             </div>
             <div className="hero-signal-card">
               <span>Improved</span>

@@ -14,8 +14,8 @@ function Contact() {
       <div className="contact-card">
         <h2 className="gradient-text">Hire Me</h2>
         <p>
-          Open to backend engineering and AI systems roles. I usually respond
-          within 24 hours for interviews, referrals, and serious build requests.
+          Open to backend engineering and software development roles. I usually respond
+          within 24 hours for conversations, referrals, and serious build requests.
         </p>
         <div className="contact-facts">
           <div className="contact-fact">
@@ -28,7 +28,7 @@ function Contact() {
           </div>
           <div className="contact-fact">
             <span>Best Fit</span>
-            <strong>AI platforms, backend APIs, automation systems</strong>
+            <strong>Backend APIs, automation systems, production software</strong>
           </div>
         </div>
         <p>

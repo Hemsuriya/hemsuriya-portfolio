@@ -16,18 +16,16 @@ function CurrentlyBuilding() {
           <span className="dot" />
           In Progress
         </div>
-        <div className="building-title">AI Recruitment System</div>
+        <div className="building-title">Automation-First Platform</div>
         <p className="building-desc">
-          Developing an end-to-end AI-powered recruitment platform that automates
-          resume parsing, candidate ranking, and interview generation using
-          LangChain, Hugging Face, and large language models. The system is built
-          to process hundreds of applications and surface the best candidates fast.
+          Developing an end-to-end platform that automates repetitive backend tasks,
+          routes data intelligently, and surfaces the right information fast. The
+          goal is simple: less manual work, cleaner operations, stronger delivery.
         </p>
         <div className="building-tech">
-          <span>LangChain</span>
-          <span>Hugging Face</span>
-          <span>RAG</span>
           <span>FastAPI</span>
+          <span>Python</span>
+          <span>RAG</span>
           <span>React</span>
           <span>PostgreSQL</span>
           <span>Docker</span>

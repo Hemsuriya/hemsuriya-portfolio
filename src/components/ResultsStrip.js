@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const metrics = [
-  { value: "60%", label: "less manual screening effort" },
+  { value: "60%", label: "less repetitive manual work" },
   { value: "10K+", label: "requests handled per day" },
   { value: "35%", label: "faster SQL execution time" },
   { value: "5K+", label: "daily users supported" },
@@ -20,7 +20,7 @@ function ResultsStrip() {
         <div className="impact-kicker">Proof Of Impact</div>
         <h2 className="section-heading gradient-text">Results That Matter Fast</h2>
         <p className="section-subtitle">
-          Recruiter-friendly numbers that show delivery, scale, and business outcome.
+          Clear numbers that show delivery, scale, and business outcome.
         </p>
       </div>
 

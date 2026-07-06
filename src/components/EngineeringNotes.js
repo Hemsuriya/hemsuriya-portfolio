@@ -2,19 +2,19 @@ import { motion } from "framer-motion";
 
 const notes = [
   {
-    title: "Designing Reliable LLM Screening Pipelines",
+    title: "Designing Reliable Backend Systems",
     summary:
-      "How I structured prompt, ranking, and fallback layers to keep candidate scoring consistent in production.",
+      "How I structure service boundaries, fallbacks, and data flow to keep backend systems consistent in production.",
   },
   {
-    title: "FastAPI Patterns for High-Volume AI APIs",
+    title: "FastAPI Patterns for High-Volume APIs",
     summary:
-      "Practical API design patterns I use for request validation, async jobs, and observability in AI backends.",
+      "Practical API design patterns I use for request validation, async jobs, and observability in production systems.",
   },
   {
-    title: "From Prototype to Production in LangChain",
+    title: "From Prototype to Production",
     summary:
-      "Lessons learned while moving recruiter workflows from demos to stable, maintainable systems.",
+      "Lessons learned while moving demos into stable, maintainable software that teams can rely on.",
   },
 ];
 

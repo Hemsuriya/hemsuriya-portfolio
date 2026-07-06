@@ -3,15 +3,15 @@ import { trackEvent } from "../utils/analytics";
 
 const projects = [
   {
-    title: "AI Recruitment Platform",
+    title: "Workflow Automation Platform",
     description:
-      "An end-to-end hiring platform that parses resumes, ranks candidates, and generates interview flows with LLM pipelines.",
+      "An end-to-end backend platform that automates repetitive operations, routes data intelligently, and keeps processes moving fast.",
     image: "/ai-1.png",
-    tags: ["Python", "LangChain", "Hugging Face", "FastAPI", "React"],
+    tags: ["Python", "LangChain", "FastAPI", "React", "Automation"],
     impact: [
-      "Reduced manual screening effort by 60%",
-      "Automated candidate ranking in seconds",
-      "Built for high-volume hiring pipelines",
+      "Reduced repetitive manual work by 60%",
+      "Automated critical backend workflows",
+      "Built for high-throughput operations",
     ],
     github: "https://github.com/Hemsuriya/ai-recruitment-system.git",
     demo: null,
@@ -35,13 +35,13 @@ const projects = [
   {
     title: "IoT Drone Monitoring System",
     description:
-      "A real-time monitoring system for drone operations with live alerts, operational tracking, and compliance-friendly data visibility.",
+      "A real-time monitoring system for drone operations with live alerts, operational tracking, and clear data visibility.",
     image: "/ai-2.png",
     tags: ["IoT", "Python", "Monitoring", "Alerts", "Systems"],
     impact: [
       "Delivered real-time alerting for operational data",
       "Designed for field visibility and fast response",
-      "Aligned with production and compliance workflows",
+      "Aligned with production workflows",
     ],
     github: "https://github.com/hemsuriya",
     demo: null,

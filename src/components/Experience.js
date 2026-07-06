@@ -6,9 +6,9 @@ const experiences = [
     company: "Cloud BC Labs",
     date: "June 2025 - Present",
     points: [
-      "Built an AI-powered recruitment platform using Python, LangChain, Hugging Face, and RAG pipelines",
-      "Owned end-to-end backend development for resume parsing and candidate ranking",
-      "Shipped production features spanning recruitment workflows and hospital management modules",
+      "Built backend systems using Python, FastAPI, LangChain, and modular services",
+      "Owned end-to-end development for API design, business logic, and deployment",
+      "Shipped production features spanning automation, monitoring, and operational tooling",
     ],
   },
   {

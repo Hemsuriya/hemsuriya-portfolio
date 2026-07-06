@@ -16,18 +16,17 @@ function About() {
       viewport={{ once: true }}
     >
       <h2 className="section-heading gradient-text">About Me</h2>
-      <p className="section-subtitle">Why teams trust me for backend execution and AI delivery</p>
+      <p className="section-subtitle">Why teams trust me for backend execution and software delivery</p>
 
       <div className="about-content">
         <div className="about-text">
           <p>
-            I am a <strong>Backend Engineer focused on AI systems</strong> who turns complex
+            I am a <strong>Backend Engineer focused on software systems</strong> who turns complex
             requirements into production software that teams can use immediately.
           </p>
           <p>
-            I have built <strong>AI-powered recruitment workflows</strong> with LangChain, Hugging
-            Face, and RAG pipelines to automate resume parsing, candidate ranking, and interview
-            generation.
+            I have built <strong>automation-heavy backend platforms</strong> with Python, Django,
+            FastAPI, and AI where it makes sense, keeping the systems fast, maintainable, and useful.
           </p>
           <p>
             My approach is simple: ownership, fast iteration, clean architecture, and measurable
