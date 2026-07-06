@@ -112,11 +112,11 @@ function StoryVisual({ scene }) {
       {scene.visual.mode === "ship" && (
         <div className="story-display story-display-ship">
           <div className="pipeline-step">Test</div>
-          <div className="pipeline-arrow">-&gt;</div>
+          <div className="pipeline-arrow" aria-hidden="true">&#8594;</div>
           <div className="pipeline-step">Build</div>
-          <div className="pipeline-arrow">-&gt;</div>
+          <div className="pipeline-arrow" aria-hidden="true">&#8594;</div>
           <div className="pipeline-step">Deploy</div>
-          <div className="pipeline-arrow">-&gt;</div>
+          <div className="pipeline-arrow" aria-hidden="true">&#8594;</div>
           <div className="pipeline-step">Monitor</div>
           <div className="release-note">
             <span>Release note</span>
