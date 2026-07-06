@@ -135,11 +135,23 @@ function StoryVisual({ scene }) {
             <span>Latency</span>
             <strong>Response times down</strong>
           </div>
-          <div className="metric-bars">
-            <div className="metric-bar" style={{ height: "42%" }} />
-            <div className="metric-bar" style={{ height: "58%" }} />
-            <div className="metric-bar" style={{ height: "74%" }} />
-            <div className="metric-bar" style={{ height: "88%" }} />
+          <div className="metric-kpis">
+            <div className="metric-kpi">
+              <strong>60%</strong>
+              <span>Less manual work</span>
+            </div>
+            <div className="metric-kpi">
+              <strong>10K+</strong>
+              <span>Requests / day</span>
+            </div>
+            <div className="metric-kpi">
+              <strong>35%</strong>
+              <span>Faster SQL</span>
+            </div>
+            <div className="metric-kpi">
+              <strong>5K+</strong>
+              <span>Daily users</span>
+            </div>
           </div>
         </div>
       )}
