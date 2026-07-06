@@ -4,21 +4,31 @@ const experiences = [
   {
     role: "Software Engineer",
     company: "Cloud BC Labs",
-    date: "June 2024 - Current",
+    date: "June 2025 - Present",
     points: [
-      "Developed AI recruitment platform using LangChain & LLMs",
-      "Designed scalable microservices architecture handling 10K+ requests/day",
-      "Built automation workflows for hiring pipelines reducing manual effort by 60%",
+      "Built an AI-powered recruitment platform using Python, LangChain, Hugging Face, and RAG pipelines",
+      "Owned end-to-end backend development for resume parsing and candidate ranking",
+      "Shipped production features spanning recruitment workflows and hospital management modules",
     ],
   },
   {
-    role: "Associate Software Engineer",
-    company: "Test Yantra",
-    date: "November 2023 - May 2024",
+    role: "Associate Software Engineer - Python",
+    company: "Test Yantra Software Solutions",
+    date: "November 2024 - March 2025",
     points: [
-      "Improved backend performance by 20% through caching & query optimization",
-      "Developed REST APIs using Django & Flask serving 5K+ daily users",
-      "Optimized SQL queries reducing average execution time by 35%",
+      "Developed scalable backend applications and REST APIs using Python, Django, and Flask",
+      "Improved API response time by 20% and reduced SQL query time by 30% through tuning and indexing",
+      "Automated build and deployment workflows with Docker, Jenkins, and Git, cutting deployment time by 40%",
+    ],
+  },
+  {
+    role: "Junior R&D Engineer Intern",
+    company: "Garuda Aerospace Pvt Ltd",
+    date: "September 2022 - January 2024",
+    points: [
+      "Developed IoT-enabled drone monitoring systems with real-time alerting for operational tracking",
+      "Delivered technical training to 300+ trainees under RPTO standards and earned a Letter of Appreciation",
+      "Supported testing, deployment, and compliance documentation for defense-related use cases",
     ],
   },
 ];

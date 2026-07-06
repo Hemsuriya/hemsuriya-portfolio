@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const highlights = [
-  { number: "1+", label: "Years Exp." },
-  { number: "5+", label: "Projects" },
-  { number: "3+", label: "AI Systems" },
-  { number: "10K+", label: "API Requests/day" },
+  { number: "2+", label: "Years Exp." },
+  { number: "3+", label: "Production Systems" },
+  { number: "20%", label: "API Faster" },
+  { number: "300+", label: "People Trained" },
 ];
 
 function About() {
@@ -16,21 +16,22 @@ function About() {
       viewport={{ once: true }}
     >
       <h2 className="section-heading gradient-text">About Me</h2>
-      <p className="section-subtitle">Why teams hire me for AI + backend execution</p>
+      <p className="section-subtitle">Why teams trust me for backend execution and AI delivery</p>
 
       <div className="about-content">
         <div className="about-text">
           <p>
-            I am a <strong>Software Engineer focused on AI and backend systems</strong> who
-            turns complex requirements into production software that teams can use immediately.
+            I am a <strong>Backend Engineer focused on AI systems</strong> who turns complex
+            requirements into production software that teams can use immediately.
           </p>
           <p>
-            I have built <strong>AI-powered recruitment workflows</strong> with LangChain and LLMs
-            to automate resume screening, candidate matching, and interview coordination.
+            I have built <strong>AI-powered recruitment workflows</strong> with LangChain, Hugging
+            Face, and RAG pipelines to automate resume parsing, candidate ranking, and interview
+            generation.
           </p>
           <p>
             My approach is simple: ownership, fast iteration, clean architecture, and measurable
-            business impact through APIs and backend performance.
+            business impact through APIs, backend performance, and automation that actually gets used.
           </p>
         </div>
 

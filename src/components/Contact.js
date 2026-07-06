@@ -14,17 +14,17 @@ function Contact() {
       <div className="contact-card">
         <h2 className="gradient-text">Hire Me</h2>
         <p>
-          Open to AI Engineer and Backend Developer roles. I usually respond
-          within 24 hours for interviews and collaboration opportunities.
+          Open to backend engineering and AI systems roles. I usually respond
+          within 24 hours for interviews, referrals, and serious build requests.
         </p>
         <div className="contact-facts">
           <div className="contact-fact">
             <span>Location</span>
-            <strong>Bengaluru, India</strong>
+            <strong>Bangalore, India</strong>
           </div>
           <div className="contact-fact">
-            <span>Work Preference</span>
-            <strong>Remote, hybrid, or on-site</strong>
+            <span>Notice Period</span>
+            <strong>30 days</strong>
           </div>
           <div className="contact-fact">
             <span>Best Fit</span>
@@ -32,7 +32,7 @@ function Contact() {
           </div>
         </div>
         <p>
-          Phone: <a href="tel:+917899815832">+91 7899815832</a>
+          Phone: <a href="tel:+919380397237">+91 9380397237</a>
         </p>
 
         <div className="contact-links">
@@ -62,7 +62,7 @@ function Contact() {
             GitHub {"\u2197"}
           </a>
           <a
-            href="/Hemsuriya_M%20Final%20Resume.pdf"
+            href="/Hemsuriya_M_CV_India.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline"

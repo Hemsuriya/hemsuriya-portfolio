@@ -25,7 +25,7 @@ function Navbar() {
             closeMenu();
           }}
         >
-          Hemsuriya M
+          Hemsuriya Manikandan
         </h2>
 
         <div
@@ -43,7 +43,7 @@ function Navbar() {
           <a href="#experience" onClick={closeMenu}>Experience</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
           <a
-            href="/Hemsuriya_M%20Final%20Resume.pdf"
+            href="/Hemsuriya_M_CV_India.pdf"
             target="_blank"
             rel="noreferrer"
             className="nav-resume"

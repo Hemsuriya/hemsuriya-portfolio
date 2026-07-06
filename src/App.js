@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Storyline from "./components/Storyline";
 import ResultsStrip from "./components/ResultsStrip";
 import FeaturedImpact from "./components/FeaturedImpact";
 import RecruiterSnapshot from "./components/RecruiterSnapshot";
@@ -20,6 +21,7 @@ function App() {
       <CursorGlow />
       <Navbar />
       <Hero />
+      <Storyline />
       <ResultsStrip />
       <FeaturedImpact />
       <RecruiterSnapshot />
@@ -31,7 +33,7 @@ function App() {
       <Experience />
       <Contact />
       <footer className="footer">
-        Designed & built by Hemsuriya M
+        Designed & built by Hemsuriya Manikandan
       </footer>
       <ScrollTop />
     </>

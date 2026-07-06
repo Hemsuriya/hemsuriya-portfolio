@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
 const items = [
-  { label: "Location", value: "Bengaluru, India (IST)" },
-  { label: "Role Focus", value: "AI Engineer / Backend Developer" },
-  { label: "Work Mode", value: "Remote / Hybrid / On-site" },
-  { label: "Availability", value: "Interview-ready and actively exploring" },
-  { label: "Strength", value: "Python, FastAPI, Django, LangChain" },
+  { label: "Location", value: "Bangalore, India (IST)" },
+  { label: "Role Focus", value: "Backend Engineer / AI Systems Builder" },
+  { label: "Notice Period", value: "30 days" },
+  { label: "Availability", value: "Open to relocate and actively exploring" },
+  { label: "Strength", value: "Python, Django, FastAPI, LangChain" },
   { label: "Response Time", value: "Usually within 24 hours" },
 ];
 

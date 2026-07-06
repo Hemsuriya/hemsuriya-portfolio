@@ -5,13 +5,13 @@ const projects = [
   {
     title: "AI Recruitment Platform",
     description:
-      "An end-to-end hiring platform that automates resume screening, candidate matching, and interview scheduling with LLM workflows.",
+      "An end-to-end hiring platform that parses resumes, ranks candidates, and generates interview flows with LLM pipelines.",
     image: "/ai-1.png",
-    tags: ["Python", "LangChain", "LLMs", "FastAPI", "React"],
+    tags: ["Python", "LangChain", "Hugging Face", "FastAPI", "React"],
     impact: [
       "Reduced manual screening effort by 60%",
-      "Supports high-volume hiring pipelines",
       "Automated candidate ranking in seconds",
+      "Built for high-volume hiring pipelines",
     ],
     github: "https://github.com/Hemsuriya/ai-recruitment-system.git",
     demo: null,
@@ -20,17 +20,32 @@ const projects = [
   {
     title: "Hospital Management System",
     description:
-      "A full-stack system for managing patient records, appointments, and staff operations with role-based access control.",
+      "A full-stack system for managing patient records, appointments, billing, and staff operations with role-based access control.",
     image: "/HMS-1.png",
-    tags: ["Django", "MySQL", "REST API", "JavaScript"],
+    tags: ["Django", "MySQL", "REST API", "Python", "JavaScript"],
     impact: [
       "Centralized patient and appointment workflow",
-      "Improved operational visibility for staff",
       "Reduced manual data handling with REST APIs",
+      "Improved operational visibility for staff",
     ],
     github: "https://github.com/hemsuriya",
     demo: null,
     architecture: "Django backend + MySQL data layer + role-based workflows",
+  },
+  {
+    title: "IoT Drone Monitoring System",
+    description:
+      "A real-time monitoring system for drone operations with live alerts, operational tracking, and compliance-friendly data visibility.",
+    image: "/ai-2.png",
+    tags: ["IoT", "Python", "Monitoring", "Alerts", "Systems"],
+    impact: [
+      "Delivered real-time alerting for operational data",
+      "Designed for field visibility and fast response",
+      "Aligned with production and compliance workflows",
+    ],
+    github: "https://github.com/hemsuriya",
+    demo: null,
+    architecture: "IoT sensors + monitoring workflows + alerting layer",
   },
 ];
 

@@ -9,7 +9,7 @@ function CurrentlyBuilding() {
       viewport={{ once: true }}
     >
       <h2 className="section-heading gradient-text">Currently Building</h2>
-      <p className="section-subtitle">What I'm actively working on right now</p>
+      <p className="section-subtitle">What I'm actively pushing toward production right now</p>
 
       <div className="building-card">
         <div className="building-status">
@@ -19,13 +19,14 @@ function CurrentlyBuilding() {
         <div className="building-title">AI Recruitment System</div>
         <p className="building-desc">
           Developing an end-to-end AI-powered recruitment platform that automates
-          resume screening, candidate-job matching, and interview scheduling using
-          LangChain and large language models. The system processes hundreds of
-          applications and surfaces the best candidates in seconds.
+          resume parsing, candidate ranking, and interview generation using
+          LangChain, Hugging Face, and large language models. The system is built
+          to process hundreds of applications and surface the best candidates fast.
         </p>
         <div className="building-tech">
           <span>LangChain</span>
-          <span>GPT-4</span>
+          <span>Hugging Face</span>
+          <span>RAG</span>
           <span>FastAPI</span>
           <span>React</span>
           <span>PostgreSQL</span>

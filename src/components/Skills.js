@@ -4,15 +4,17 @@ import {
   SiJavascript,
   SiHtml5,
   SiCss,
-  SiReact,
+  SiSqlite,
   SiDjango,
   SiFlask,
   SiFastapi,
   SiLangchain,
+  SiHuggingface,
   SiMysql,
   SiDocker,
   SiJenkins,
-  SiApachemaven,
+  SiGit,
+  SiLinux,
 } from "react-icons/si";
 import { FaJava, FaAws, FaBrain, FaComments } from "react-icons/fa";
 
@@ -23,9 +25,9 @@ const skillCategories = [
       { name: "Python", Icon: SiPython, color: "#3776AB" },
       { name: "Java", Icon: FaJava, color: "#ED8B00" },
       { name: "JavaScript", Icon: SiJavascript, color: "#F7DF1E" },
+      { name: "SQL", Icon: SiSqlite, color: "#4A90E2" },
       { name: "HTML", Icon: SiHtml5, color: "#E34F26" },
       { name: "CSS", Icon: SiCss, color: "#1572B6" },
-      { name: "ReactJS", Icon: SiReact, color: "#61DAFB" },
     ],
   },
   {
@@ -40,18 +42,20 @@ const skillCategories = [
     title: "AI / ML",
     skills: [
       { name: "LangChain", Icon: SiLangchain, color: "#60A5FA" },
+      { name: "Hugging Face", Icon: SiHuggingface, color: "#FF9D00" },
       { name: "LLMs", Icon: FaBrain, color: "#A78BFA" },
       { name: "NLP", Icon: FaComments, color: "#22D3EE" },
     ],
   },
   {
-    title: "Infrastructure",
+    title: "Delivery",
     skills: [
       { name: "MySQL", Icon: SiMysql, color: "#4479A1" },
       { name: "AWS", Icon: FaAws, color: "#FF9900" },
       { name: "Docker", Icon: SiDocker, color: "#2496ED" },
       { name: "Jenkins", Icon: SiJenkins, color: "#D24939" },
-      { name: "Maven", Icon: SiApachemaven, color: "#C71A36" },
+      { name: "Git", Icon: SiGit, color: "#F05032" },
+      { name: "Linux", Icon: SiLinux, color: "#FCC624" },
     ],
   },
 ];
@@ -70,7 +74,7 @@ function Skills() {
   return (
     <section id="skills">
       <h2 className="section-heading gradient-text">Tech Stack</h2>
-      <p className="section-subtitle">Technologies I work with daily</p>
+      <p className="section-subtitle">Technologies I use to ship backend and AI systems</p>
 
       {skillCategories.map((category) => (
         <div key={category.title} className="skill-category">
