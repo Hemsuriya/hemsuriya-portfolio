@@ -7,13 +7,12 @@ const scenes = [
     title: "Spot the bottleneck",
     eyebrow: "Signal",
     description:
-      "I start by finding the point where teams lose time, clarity, or confidence. In my work, that usually means backend bottlenecks, unreliable systems, or workflows that feel manual when they should feel automated.",
+      "I start by finding where teams lose time, clarity, or confidence. In my work, that usually means a slow request path, a noisy service boundary, or a process that should feel automatic but does not.",
     impact: "Find the friction first, then build the shortest path through it.",
-    chips: ["Workflow mapping", "Latency tracing", "Problem framing"],
+    chips: ["Request flow", "API latency", "Problem framing"],
     visual: {
-      label: "Signal Map",
+      label: "Trace path",
       mode: "signal",
-      metric: "Friction",
     },
   },
   {
@@ -21,13 +20,12 @@ const scenes = [
     title: "Design the machine",
     eyebrow: "Build",
     description:
-      "I shape the architecture around reliability and speed, then layer in intelligence only where it genuinely improves the outcome. That keeps the system useful instead of flashy.",
+      "I shape the architecture around reliability and speed, then split the work into small parts that are easy to test and maintain. That keeps the system useful instead of flashy.",
     impact: "Simple structure, sharp execution, and no unnecessary complexity.",
-    chips: ["FastAPI", "Architecture", "Data flow", "Reliability"],
+    chips: ["FastAPI", "Services", "Data flow", "Reliability"],
     visual: {
-      label: "System Core",
+      label: "Architecture notes",
       mode: "build",
-      metric: "Architecture",
     },
   },
   {
@@ -35,13 +33,12 @@ const scenes = [
     title: "Make it feel inevitable",
     eyebrow: "Ship",
     description:
-      "Once the core system works, I polish the interaction model so it feels obvious to use. The result should look less like software and more like a capability the team suddenly gained.",
-    impact: "The interface should make the intelligence feel natural.",
+      "Once the core system works, I polish the handoff so it feels obvious to use. The result should look less like software and more like a capability the team suddenly gained.",
+    impact: "The interface should make the engineering feel natural.",
     chips: ["Motion", "Feedback", "Micro-interactions", "Clarity"],
     visual: {
-      label: "Delivery Flow",
+      label: "Release flow",
       mode: "ship",
-      metric: "Momentum",
     },
   },
   {
@@ -53,9 +50,8 @@ const scenes = [
     impact: "Measure the lift, then iterate until the lift is obvious.",
     chips: ["Reduction", "Speed", "Throughput", "Adoption"],
     visual: {
-      label: "Outcome Curve",
+      label: "Outcomes",
       mode: "scale",
-      metric: "Lift",
     },
   },
 ];
@@ -71,19 +67,19 @@ function StoryVisual({ scene }) {
       {scene.visual.mode === "signal" && (
         <div className="story-display story-display-signal">
           <div className="service-card service-card-active">
-            <span>Frontend</span>
-            <strong>Request flow</strong>
-            <p>Track where user actions slow down.</p>
+            <span>User</span>
+            <strong>Request path</strong>
+            <p>Where users wait, click, or drop off.</p>
           </div>
           <div className="service-card">
             <span>API</span>
-            <strong>Latency hotspot</strong>
-            <p>Find the slow endpoint or missing cache.</p>
+            <strong>Hot endpoint</strong>
+            <p>Which endpoint or service is slowing things down.</p>
           </div>
           <div className="service-card">
-            <span>Database</span>
+            <span>Data</span>
             <strong>Query pressure</strong>
-            <p>Spot joins and lookups that hurt speed.</p>
+            <p>Which lookup, join, or cache path needs tuning.</p>
           </div>
         </div>
       )}
@@ -98,8 +94,8 @@ function StoryVisual({ scene }) {
           </div>
           <div className="stack-panel">
             <div className="stack-item">
-              <span>API</span>
-              <strong>Fast, clean, testable</strong>
+              <span>API layer</span>
+              <strong>Fast, clear, testable</strong>
             </div>
             <div className="stack-item">
               <span>Services</span>
@@ -116,11 +112,11 @@ function StoryVisual({ scene }) {
       {scene.visual.mode === "ship" && (
         <div className="story-display story-display-ship">
           <div className="pipeline-step">Test</div>
-          <div className="pipeline-arrow">→</div>
+          <div className="pipeline-arrow">-&gt;</div>
           <div className="pipeline-step">Build</div>
-          <div className="pipeline-arrow">→</div>
+          <div className="pipeline-arrow">-&gt;</div>
           <div className="pipeline-step">Deploy</div>
-          <div className="pipeline-arrow">→</div>
+          <div className="pipeline-arrow">-&gt;</div>
           <div className="pipeline-step">Monitor</div>
           <div className="release-note">
             <span>Release note</span>
@@ -174,8 +170,8 @@ function Storyline() {
           <div className="impact-kicker">Interactive Storyline</div>
           <h2 className="section-heading gradient-text">How the work unfolds</h2>
           <p className="section-subtitle">
-            Click through the sequence to see how I turn a messy idea into a
-            high-signal product story.
+            Click through the sequence to see the concrete software artifact
+            behind each phase of the build.
           </p>
         </div>
 
